@@ -183,7 +183,7 @@ function Checkout() {
         </div>
       </div>
       <div className='w-full md:w-[30%] border ml-0 md:ml-80 mt-5 md:mt-20'>
-        <h2 className='p-3 bg-gray-200 font-bold text-center'>
+        <h2 className='p-3 font-bold text-center bg-background'>
           Total Cart ({cart?.length})
         </h2>
         <div className='p-4 flex flex-col gap-4'>

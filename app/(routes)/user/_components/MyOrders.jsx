@@ -31,9 +31,9 @@ const MyOrders = () => {
   };
 
   return (
-    <div>
-      <h2 className='font-bold text-lg'>My Orders</h2>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
+    <div >
+      <h2 className='font-bold text-lg text-black '>My Orders</h2>
+      <div className='grid grid-cols-1 md:grid-cols-2 text-black  gap-5'>
         {orderList && orderList.length > 0 ? (
           orderList.map((order, index) => (
             <div className='p-3 border rounded-lg flex flex-col gap-3' key={index}>

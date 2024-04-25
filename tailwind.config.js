@@ -8,6 +8,7 @@ module.exports = {
         './src/**/*.{js,jsx}',
     ],
     prefix: "",
+    
     theme: {
         container: {
             center: true,
@@ -21,8 +22,10 @@ module.exports = {
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
                 ring: "hsl(var(--ring))",
-                background: "hsl(var(--background))",
-                foreground: "hsl(var(--foreground))",
+                // background: "hsl(var(--background))",
+                background: "#333333",
+                // foreground: "hsl(var(--foreground))",
+                foreground: "hsl(var(--background))",
                 primary: {
                     DEFAULT: "#fdb913",
                     foreground: "hsl(var(--primary-foreground))",
