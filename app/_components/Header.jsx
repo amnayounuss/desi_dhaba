@@ -45,7 +45,8 @@
         return (
             <div className='flex flex-col md:flex-row  justify-between items-center p-2 mt-4 shadow-sm'>
                 <Link href={'/?category=all'} >
-                    <Image src="/logo.png" alt='logo' required width={330} height={330} className='-ml-20 px-6 ' />
+                <Image src="/logo.png" alt='logo' required width={230} height={230} className='mx-auto px-6 sm:max-w-full' />
+
                 </Link>
                 <div className='flex border p-2 rounded-lg bg-gray-200 w-full md:max-w-md h-10 md:h-auto'>
                     <input type="text" className='bg-transparent w-full outline-none' placeholder='Search' />
